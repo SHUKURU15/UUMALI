@@ -5,24 +5,117 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ufugaji wa Nyuki & Utunzaji Misitu </title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
-<body>
-  <header>
-    <h1>Karibu katika kurasa yetu ya Ufugaji Nyuki na Utunzaji Misitu Asili lijala</h1>
-    <nav>
-      <a href="index.html">Nyumbani</a>
-      <a href="about.html">Kuhusu</a>
-      <a href="contact.html">Mawasiliano</a>
-    </nav>
+
+  <body>
+    
+  <!-- Navigation bar nje ya <header> -->
+  <div class="top-navbar">
+    <div class="nav-container">
+      <div class="logo">UUMALI</div>
+      <nav class="menu">
+        <a href="index.html">Home/Nyumbani</a>
+        <a href="about.html">About us/Kuhusu Sisi</a>
+        <a href="contact.html">Contacts/Mawasiliano</a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Kisha hapa unaendelea na content nyingine -->
+
+   <!-- Picha kubwa juu ya header -->
+  <div class="top-banner">
+    <img src="IMAGES/NYUKI 2.jpg" alt="Picha ya Juu" />
+  </div>
+  <header class="moving-header">
+     <h1>Karibu katika kurasa yetu ya Ufugaji Nyuki na Utunzaji Misitu Asili lijala</h1>
+    <div class="moving-images">
+      <img src="IMAGES/NYUKI  SLIDE 1.png" />
+      <img src="IMAGES/UTUNZAJI MISITU 1.jpg" />
+      <img src="IMAGES/UTUNZAJI MISITU 2.jpg" />
+      <img src="IMAGES/NYUKI SLIDE 3.png" />
+      <img src="IMAGES/UTUNZAJI MISITU 3.jpg" />
+    </div>
+   
   </header>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
   <main>
-    <section>
-      <h2>Huduma Zetu</h2>
-      <p>Tunatoa elimu ya ufugaji wa nyuki na kampeni za kutunza misitu nchini.</p>
-    </section>
+    <section class="relative bg-green-50 py-20 px-4 overflow-hidden">
+  <!-- Background image -->
+  <div class="absolute inset-0">
+    <img src="your-folder/services-bg.jpg" alt="Misitu" class="w-full h-full object-cover opacity-10">
+  </div>
+
+  <div class="relative max-w-6xl mx-auto text-center">
+    <h2 class="text-4xl font-bold text-green-900 mb-6 border-b-4 border-green-400 inline-block pb-2">Huduma Zetu</h2>
+    <p class="text-lg text-gray-800 mb-10">Tunatoa huduma mbalimbali zenye lengo la kulinda mazingira, kukuza maendeleo endelevu, na kuongeza maarifa kwa jamii.</p>
+
+    <div class="grid md:grid-cols-3 gap-8 text-left">
+      <!-- Huduma 1 -->
+      <div class="bg-white/90 rounded-xl p-6 shadow-lg hover:shadow-2xl transition">
+        <div class="mb-4">
+          <svg class="w-10 h-10 text-green-600" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M4.5 12.75l6 6 9-13.5" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-green-700 mb-2">Uhamasishaji wa Uhifadhi</h3>
+        <p class="text-gray-700">Kampeni za kuelimisha jamii kuhusu umuhimu wa kutunza mazingira na kupambana na uharibifu wa misitu.</p>
+      </div>
+
+      <!-- Huduma 2 -->
+      <div class="bg-white/90 rounded-xl p-6 shadow-lg hover:shadow-2xl transition">
+        <div class="mb-4">
+          <svg class="w-10 h-10 text-yellow-500" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M12 3v1.5m6.364.636l-1.06 1.06M21 12h-1.5m-1.636 6.364l-1.06-1.06M12 21v-1.5m-6.364-.636l1.06-1.06M3 12h1.5m1.636-6.364l1.06 1.06" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-green-700 mb-2">Upandaji Miti & Ufugaji Nyuki</h3>
+        <p class="text-gray-700">Miradi ya kuongeza uoto wa asili na kipato kupitia ufugaji wa nyuki na upandaji miti.</p>
+      </div>
+
+      <!-- Huduma 3 -->
+      <div class="bg-white/90 rounded-xl p-6 shadow-lg hover:shadow-2xl transition">
+        <div class="mb-4">
+          <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-green-700 mb-2">Elimu kwa Jamii</h3>
+        <p class="text-gray-700">Mafunzo na semina kuhusu matumizi sahihi ya rasilimali, mazingira na maendeleo endelevu.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+   
   </main>
+
+
+
+
+
+
+
+   <div class="bottom-banner">
+    <img src="IMAGES/FOREST.jpg" alt="Picha ya Chini" />
+  </div>
   <footer>
-    <p>&copy; 2025 Ufugaji Nyuki. Haki zote zimehifadhiwa.</p>
+    <p>&copy; 2025 Developed By Anfredius Gozbert Shukuru Kajuju.</p>
   </footer>
+ 
 </body>
 </html>
