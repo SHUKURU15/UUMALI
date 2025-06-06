@@ -279,3 +279,50 @@ body {
     width: 100%;
   }
 }
+
+.nav-buttons {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+}
+
+.nav-buttons button {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.nav-buttons button:hover {
+  background-color: #1b5e20;
+}
+
+
+.nav-buttons {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+}
+
+.nav-buttons button {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.nav-buttons button:hover {
+  background-color: #1b5e20;
+}
